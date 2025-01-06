@@ -1,0 +1,34 @@
+.login-bg-new{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    background-position: center;
+    background: url(img/carousel-2.gif) no-repeat;
+  }
+
+  .first-radius{
+    border-top-right-radius: 80px;
+    border-top-left-radius: 80px;
+  }
+
+
+  .tradingview-widget-copyright {
+    display: none !important;
+}
+
+
+form option {
+  color: #ffff;
+}
+
+@media(max-width: 500px){
+
+  
+
+}
+
+.action-icons{
+  font-weight: 600;
+  font-size: 22px;
+}
+
