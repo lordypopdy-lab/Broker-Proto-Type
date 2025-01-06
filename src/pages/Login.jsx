@@ -5,15 +5,16 @@ import { useEffect, useState } from 'react'
 import { NavLink, Link } from 'react-router-dom'
 
 const Login = () => {
-    const [delay, setDelay] = useState(false);
 
-    useEffect(() => {
-        setTimeout(() => { setDelay(true) }, 1000)
-    }, [])
+    const login = async (event) => {
+        event.preventDefault();
+        alert("Loged in Successfuly!");
+        location.href = "/dashboard";
+    }
+
     return (
         <>
             <div className="container-fluid">
-                {delay === false ? "" : <Widget101 />}
                 <div className="container-fluid page-body-wrapper full-page-wrapper mt-5">
                   <div className="login-sub-main">
                   <h3 className="card-title text-center mt-5 mb-3">| Login | Account |</h3>
@@ -34,7 +35,7 @@ const Login = () => {
                             </div>
                         </div>
                         <div className="text-center">
-                        <button type="submit" className="w-100 btn btn-warning btn-block enter-btn">Login</button>
+                        <button type="submit" onClick={login} className="w-100 btn btn-warning btn-block enter-btn">Login</button>
                         </div>
                         <p className="text-center mt-2 sign-up">Don't have an Account?<Link to="/register" className="text-warning"> Sign Up</Link></p>
                     </form>

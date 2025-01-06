@@ -2,6 +2,9 @@ import React from 'react';
 import NavBar from '../componets/NavBar';
 import Widget101 from '../componets/Widget101';
 
+import "../assets/css/style.css";
+
+
 const Index = () => {
 
 
