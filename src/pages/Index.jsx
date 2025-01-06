@@ -3,7 +3,9 @@ import NavBar from '../componets/NavBar';
 import Widget101 from '../componets/Widget101';
 
 import "../assets/css/style.css";
-
+import "../assets/assets/assets/css/theme.css";
+import "../assets/lib/animate/animate.min.css"
+import "../assets/lib/owlcarousel/assets/owl.carousel.min.css"
 
 const Index = () => {
 
