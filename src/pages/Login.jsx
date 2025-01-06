@@ -15,6 +15,7 @@ const Login = () => {
     return (
         <>
             <div className="container-fluid">
+                <Widget101 />
                 <div className="container-fluid page-body-wrapper full-page-wrapper mt-5">
                   <div className="login-sub-main">
                   <h3 className="card-title text-center mt-5 mb-3">| Login | Account |</h3>
