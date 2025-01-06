@@ -297,7 +297,7 @@ const Register = () => {
                             <label className="form-check-label">
                                 <input type="checkbox" className="form-check-input" required /> Remember me </label>
                         </div>
-                        <a href="forgot-password.php" className="forgot-pass text-warning">Forgot password</a>
+                        <a href="#" className="forgot-pass text-warning">Forgot password</a>
                     </div>
                     <div className="text-center mt-4">
                         <button type="submit" className="w-100 btn btn-warning btn-block enter-btn">Signup</button>
