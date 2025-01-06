@@ -29,60 +29,8 @@ const Index = () => {
                             </div>
                         </div>
                     </div>
-
                     <Widget101 />
-                    {/* <!-- end of .container-->
-
-                    
-
-                        <!-- TradingView Widget BEGIN --> */}
-                    {/* <div className="tradingview-widget-container bg-dark mt-4">
-                            <div className="tradingview-widget-container__widget"></div>
-                            <div className="tradingview-widget-copyright"><a href="https://www.tradingview.com/" rel="noopener nofollow" target="_blank"><span className="blue-text">Track all markets on TradingView</span></a></div>
-                            <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js" async>
-                                {
-                                    "symbols"; [
-                                {
-                                    "proName": "FOREXCOM:SPXUSD",
-                                "title": "S&P 500"
-              },
-                                {
-                                    "proName": "FOREXCOM:NSXUSD",
-                                "title": "US 100"
-              },
-                                {
-                                    "proName": "FX_IDC:EURUSD",
-                                "title": "EUR to USD"
-              },
-                                {
-                                    "proName": "BITSTAMP:BTCUSD",
-                                "title": "Bitcoin"
-              },
-                                {
-                                    "proName": "BITSTAMP:ETHUSD",
-                                "title": "Ethereum"
-              }
-                                ],
-                                "showSymbolLogo"; true,
-                                "colorTheme"; "dark",
-                                "isTransparent"; true,
-                                "displayMode"; "adaptive",
-                                "locale"; "en"
-          }
-                            </script>
-                        </div>
-                        <!-- TradingView Widget END --> */}
-
                 </section>
-                {/* <!-- <section> close ============================-->
-                        <!-- ============================================--> */}
-
-
-
-
-                {/* <!-- ============================================-->
-                        <!-- <section> begin ============================--> */}
-
 
                 <div className="container">
                     <div className="row p-4">
