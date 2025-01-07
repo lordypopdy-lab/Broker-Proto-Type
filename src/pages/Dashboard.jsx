@@ -30,7 +30,7 @@ const Dashboard = () => {
                                             <div className="row">
                                                 <div className="col-10">
                                                     <div className="d-flex mt-2 align-items-center align-self-start">
-                                                        <h5 className="display-4 ls-3"> {isBalanceVisible ? <><span className="text-600">$</span>{balance}</>  : "******"}</h5>
+                                                        <h5 className="display-4 ls-3">Bal: {isBalanceVisible ? <><span className="text-600">$</span>{balance}</>  : "******"}</h5>
                                                         <span
                                                             onClick={toggleBalanceVisibility}
                                                             style={{
