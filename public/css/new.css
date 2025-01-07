@@ -7,11 +7,11 @@ body {position: static !important; top:0px !important;}
   outline: none;
   background: transparent;
  }
-@media (max-width: 532px) {
+@media (min-width: 300px) {
   .btn-special{
     border: none;
     outline: none;
-   margin-right: 20px;
+   margin-right: 30px;
     background: transparent;
    }
    
