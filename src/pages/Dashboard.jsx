@@ -30,7 +30,7 @@ const Dashboard = () => {
                                             <div className="row">
                                                 <div className="col-10">
                                                     <div className="d-flex mt-2 align-items-center align-self-start">
-                                                        <h5 className="display-4 ls-3">Bal: {isBalanceVisible ? <><span className="text-600">$</span>{balance}</>  : "******"}</h5>
+                                                        <h5 className="display-4 ls-3 text-center">Bal: {isBalanceVisible ? <><span className="text-600">$</span>{balance}</>  : "******"}</h5>
                                                         <span
                                                             onClick={toggleBalanceVisibility}
                                                             style={{
@@ -47,17 +47,17 @@ const Dashboard = () => {
                                                 </div>
                                                 <div className="col-2">
                                                     <div className="icon icon-box-warning ">
-                                                        <span className="mdi mdi-arrow-top-right icon-item"></span>
+                                                        <span className="fas fa-arrow-top icon-item"></span>
                                                     </div>
                                                 </div>
                                             </div>
                                             <div className="btn-group ml-1" role="group" aria-label="Basic example">
-                                                <button className="btn deposite"><a href="deposite.php" style={{ fontWeight: "600" }} className="text-white mt-4"><i style={{ borderBottomLeftRadius: "15px", borderTopRightRadius: "15px" }} className="mdi mdi-arrow-down d-block mb-1 bg-dark text-warning action-icons p-3"></i>Deposite</a></button>
+                                                <button className="btn deposite"><a href="#" style={{ fontWeight: "600" }} className="text-white mt-4"><i style={{ borderBottomLeftRadius: "15px", borderTopRightRadius: "15px" }} className="fas fa-wallet d-block mb-1 bg-dark text-warning action-icons p-3"></i>Deposite</a></button>
                                                 <button className="btn withdraw">
-                                                    <a href="withdraw.php" style={{ fontWeight: "600" }} className="text-white mt-4">
-                                                        <i style={{ borderBottomLeftRadius: "15px", borderTopRightRadius: "15px" }} className="fas fa-arrow-down fa-lg me-2 d-block text-warning bg-dark action-icons m-1 p-3"></i>
+                                                    <a href="#" style={{ fontWeight: "600" }} className="text-white mt-4">
+                                                        <i style={{ borderBottomLeftRadius: "15px", borderTopRightRadius: "15px" }} className="fas fa-paper-plane fa-lg me-2 d-block text-warning bg-dark action-icons m-1 p-3"></i>
                                                         Withdraw</a></button>
-                                                <button className="btn withdraw"><a href="https://www.coinbase.com/" style={{ fontWeight: "600" }} className="text-white "><i style={{ borderBottomLeftRadius: "15px", borderTopRightRadius: "15px" }} className="mdi mdi-wallet-giftcard d-block text-warning bg-dark action-icons m-1 p-3"></i>Buy</a></button>
+                                                <button className="btn withdraw"><a href="https://www.coinbase.com/" style={{ fontWeight: "600" }} className="text-white "><i style={{ borderBottomLeftRadius: "15px", borderTopRightRadius: "15px" }} className="fas fa-credit-card d-block text-warning bg-dark action-icons m-1 p-3"></i>Buy</a></button>
                                             </div>
                                         </div>
                                     </div>
