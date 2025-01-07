@@ -2,26 +2,17 @@ import React from 'react';
 import NavBar from '../componets/NavBar';
 import Widget101 from '../componets/Widget101';
 
-import "../assets/css/style.css";
 import "../assets/assets/assets/css/theme.css";
 import "../assets/lib/animate/animate.min.css"
 import "../assets/lib/owlcarousel/assets/owl.carousel.min.css"
-
-// import "../assets/js/main.js"
-
 
 const Index = () => {
 
 
     return (
         <>
-            {/* <!-- ===============================================-->
-            <!--    Main Content-->
-            <!-- ===============================================--> */}
             <main className="main" id="top">
                 <NavBar />
-                {/* <!-- ============================================-->
-                <!-- <section> begin ============================--> */}
                 <section className="mt-6">
 
                     <div className="container">
@@ -77,19 +68,7 @@ const Index = () => {
                     </div>
                 </div>
 
-                {/* <!-- end of .container--> */}
-
-
-                {/* <!-- <section> close ============================-->
-                            <!-- ============================================--> */}
-
-
-                {/* 
-
-                            <!-- ============================================-->
-                            <!-- <section> begin ============================--> */}
                 <section>
-
                     <div className="container">
                         <div className="row mx-md-5 px-md-5 d-flex justify-content-evenly">
                             <div className="col-4 col-lg-auto mt-5 mt-lg-0"><img src="img/logo-1.png" alt="Google" style={{ height: "30px" }} /></div>
@@ -102,17 +81,7 @@ const Index = () => {
                             <hr className="mt-7 text-1000" />
                         </div>
                     </div>
-                    {/* <!-- end of .container--> */}
-
                 </section>
-                {/* <!-- <section> close ============================-->
-                                    <!-- ============================================--> */}
-
-
-
-                {/* 
-                                    <!-- ============================================-->
-                                    <!-- <section> begin ============================--> */}
                 <section>
 
                     <div className="container">
@@ -157,19 +126,8 @@ const Index = () => {
                             </div>
                         </div>
                     </div>
-                    {/* <!-- end of .container--> */}
-
                 </section>
-                {/* <!-- <section> close ============================-->
-                                            <!-- ============================================--> */}
-
-
-
-                {/* 
-                                            <!-- ============================================-->
-                                            <!-- <section> begin ============================--> */}
                 <section className="mt-5">
-
                     <div className="container">
                         <div className="text-center">
                             <div className="p-5 bg-primary rounded-3">
@@ -183,12 +141,7 @@ const Index = () => {
                             </div>
                         </div>
                     </div>
-                    {/* <!-- end of .container--> */}
-
                 </section>
-                {/* <!-- <section> close ============================-->
-                                                    <!-- ============================================--> */}
-                {/* <!-- Award Start --> */}
                 <div className="container-fluid py-5 wow fadeInUp bg-dark" data-wow-delay="0.1s">
                     <div className="container py-5">
                         <div className="section-title text-center position-relative pb-3 mb-5 mx-auto" style={{ maxWidth: "600px" }}>
