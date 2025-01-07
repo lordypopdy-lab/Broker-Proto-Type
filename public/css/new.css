@@ -2,6 +2,21 @@ iframe.goog-te-banner-frame{ display: none !important; }
 iframe.skiptranslate{ display: none !important;}
 body {position: static !important; top:0px !important;}
 
+.btn-special{
+  border: none;
+  outline: none;
+  background: transparent;
+ }
+@media (min-width: 300px) {
+  .btn-special{
+    border: none;
+    outline: none;
+   margin-right: 30px;
+    background: transparent;
+   }
+   
+}
+
 .card-gradient{
   background: rgb(2,0,36);
   background: linear-gradient(150deg, rgba(2,0,36,1) 0%, rgba(9,30,62,1) 39%, rgba(51,58,53,1) 66%, rgba(238,219,12,0.6250875350140056) 84%, rgba(255,193,7,0.4206057422969187) 100%);

@@ -51,13 +51,10 @@ const Dashboard = () => {
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div className="btn-group ml-1" role="group" aria-label="Basic example">
-                                                <button className="btn deposite"><a href="#" style={{ fontWeight: "600" }} className="text-white mt-4"><i style={{ borderBottomLeftRadius: "15px", borderTopRightRadius: "15px" }} className="fas fa-wallet d-block mb-1 bg-dark text-warning action-icons p-3"></i>Deposite</a></button>
-                                                <button className="btn withdraw">
-                                                    <a href="#" style={{ fontWeight: "600" }} className="text-white mt-4">
-                                                        <i style={{ borderBottomLeftRadius: "15px", borderTopRightRadius: "15px" }} className="fas fa-paper-plane fa-lg me-2 d-block text-warning bg-dark action-icons m-1 p-3"></i>
-                                                        Withdraw</a></button>
-                                                <button className="btn withdraw"><a href="https://www.coinbase.com/" style={{ fontWeight: "600" }} className="text-white "><i style={{ borderBottomLeftRadius: "15px", borderTopRightRadius: "15px" }} className="fas fa-credit-card d-block text-warning bg-dark action-icons m-1 p-3"></i>Buy</a></button>
+                                            <div className="text-center btn-group ml-1">
+                                                <button className="btn-special deposite"><a href="#" style={{ fontWeight: "600" }} className="text-white mt-4"><i style={{ borderBottomLeftRadius: "15px", borderTopRightRadius: "15px" }} className="fas fa-wallet d-block mb-1 bg-dark text-warning action-icons p-3"></i>Deposite</a></button>
+                                                <button className="btn-special withdraw"><a href="#" style={{ fontWeight: "600" }} className="text-white mt-4"><i style={{ borderBottomLeftRadius: "15px", borderTopRightRadius: "15px" }} className="fas fa-paper-plane fa-lg me-2 d-block text-warning bg-dark p-3"></i>Withdraw</a></button>
+                                                <button className="btn-special withdraw"><a href="https://www.coinbase.com/" style={{ fontWeight: "600" }} className="text-white "><i style={{ borderBottomLeftRadius: "15px", borderTopRightRadius: "15px" }} className="fas fa-credit-card text-warning bg-dark p-3"></i>Buy</a></button>
                                             </div>
                                         </div>
                                     </div>
