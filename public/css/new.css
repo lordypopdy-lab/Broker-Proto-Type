@@ -2,6 +2,40 @@ iframe.goog-te-banner-frame{ display: none !important; }
 iframe.skiptranslate{ display: none !important;}
 body {position: static !important; top:0px !important;}
 
+.live-icon{
+  width: 10px;
+  height: 10px;
+  background: green;
+  position: absolute;
+  border-radius: 50%;
+}
+
+.message-input{
+  width: 90%;
+  border: 1px solid #081131;
+  outline: none;
+  padding: 12px;
+  background: transparent;
+  color: #fff;
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+}
+
+.send-button {
+  padding: 12px;
+  outline: none;
+  border: none;
+  width: 60px;
+  background: #081131;
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+}
+
+.send-button-icon {
+  color: orange;
+  font-size: 24px;
+}
+
 .btn-special{
   border: none;
   outline: none;
@@ -13,6 +47,10 @@ body {position: static !important; top:0px !important;}
     outline: none;
    margin-right: 30px;
     background: transparent;
+   }
+
+   .message-input{
+    width: 70%;
    }
    
 }

@@ -9,12 +9,17 @@ import { faEye, faEyeSlash } from "@fortawesome/free-solid-svg-icons";
 
 const Dashboard = () => {
 
-    const [isBalanceVisible, setIsBalanceVisible] = useState(false);
     const balance = "1234.56";
+    const [message, setMessage] = useState("");
+    const [isBalanceVisible, setIsBalanceVisible] = useState(false);
 
     const toggleBalanceVisibility = () => {
         setIsBalanceVisible((prev) => !prev);
     };
+
+    const handleSend = async () => {
+        alert("Message Sent!");
+    }
     return (
         <>
             <MainNavBar />
@@ -30,7 +35,7 @@ const Dashboard = () => {
                                             <div className="row">
                                                 <div className="col-10">
                                                     <div className="d-flex mt-2 align-items-center align-self-start">
-                                                        <h5 className="display-4 ls-3 text-center">Bal: {isBalanceVisible ? <><span className="text-600">$</span>{balance}</>  : "******"}</h5>
+                                                        <h5 className="display-4 ls-3 text-center">Bal: {isBalanceVisible ? <><span className="text-600">$</span>{balance}</> : "******"}</h5>
                                                         <span
                                                             onClick={toggleBalanceVisibility}
                                                             style={{
@@ -63,10 +68,10 @@ const Dashboard = () => {
                                     <div style={{ border: "none", borderRadius: "9px" }} className="card card-gradient">
                                         <div className="card-body">
                                             <div className="row">
-                                                <div className="col-9">
+                                                <div style={{ marginBottom: "-50px" }} className="col-9">
                                                     <h6 className="text-muted font-weight-normal">Bonuse</h6>
                                                     <div className="d-flex align-items-center align-self-start">
-                                                        <h4 className="mb-0">currency bonus_bal.00</h4>
+                                                        <h5 style={{ fontSize: "24px" }} className="display-4 ls-3 text-center">{isBalanceVisible ? <><span className="text-600">$</span>{balance}</> : "******"}</h5>
                                                         <p className="text-warning ml-2 mb-0 font-weight-medium">+18%</p>
                                                     </div>
 
@@ -77,7 +82,7 @@ const Dashboard = () => {
                                                     </div>
                                                 </div>
                                             </div>
-                                            <span type="button" className="btn btn-inverse-primary p-1 mt-2 btn-fw">bonus_stat</span>
+                                            <button className="btn p-2 btn-gray mt-4">Get Started <span className="fas fa-arrow-right"></span></button>
                                         </div>
                                     </div>
                                 </div>
@@ -91,14 +96,14 @@ const Dashboard = () => {
                                                     <h6 className="card-title">Total Profits</h6>
 
                                                     <div className="d-flex align-items-center align-self-start">
-                                                        <h4 className="mb-0" style={{ fontSize: "16px" }}>currencyaccount_bal.00</h4>
+                                                        <h5 style={{ fontSize: "19px" }} className="display-4 ls-3 text-center">{isBalanceVisible ? <><span className="text-600">$</span>{balance}</> : "******"}</h5>
                                                         <p className="text-warning ml-2 mb-0 font-weight-small">+28%</p>
                                                     </div>
                                                 </div>
                                                 <div className="col">
                                                     <h6 className="card-title">Total Deposite</h6>
                                                     <div className="d-flex align-items-center align-self-start">
-                                                        <h4 className="mb-0" style={{ fontSize: "16px" }}>deposite.00</h4>
+                                                        <h5 style={{ fontSize: "19px" }} className="display-4 ls-3 text-center">{isBalanceVisible ? <><span className="text-600">$</span>{balance}</> : "******"}</h5>
                                                         <p className="text-warning ml-2 mb-0 font-weight-medium">+68%</p>
                                                     </div>
                                                 </div>
@@ -140,8 +145,19 @@ const Dashboard = () => {
                                 <div className="col-md-12 grid-margin mt-3">
                                     <div style={{ border: "none", borderRadius: "9px" }} className="card card-gradient">
                                         <div className="card-body card-gradient">
-                                            <h4 className="text-primary p-0">Notification<i className="mdi mdi-message-text-outline text-danger"></i></h4>
-                                            <p className="text-white" style={{ fontSize: "10px" }}>Notifivation Message</p>
+                                            <h4 className="text-success p-0">Live Chat<span className="live-icon"></span></h4>
+                                            <div className="message-box">
+                                                <input
+                                                    type="text"
+                                                    placeholder="Type your message..."
+                                                    value={message}
+                                                    onChange={(e) => setMessage(e.target.value)}
+                                                    className="message-input"
+                                                />
+                                                <button onClick={handleSend} className="send-button">
+                                                    <i className="fas fa-paper-plane send-button-icon"></i>
+                                                </button>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
