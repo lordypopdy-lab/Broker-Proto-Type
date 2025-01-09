@@ -1,10 +1,11 @@
 import Index from "./pages/Index";
 import Login from "./pages/Login";
+import Contact from "./pages/Contact";
 import Register from "./pages/Register";
-import Dashboard from "./pages/Dashboard";
 import Deposite from "./pages/Deposite";
 import Withdraw from "./pages/Withdraw";
 import Settings from "./pages/Settings";
+import Dashboard from "./pages/Dashboard";
 
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
@@ -15,6 +16,7 @@ function App() {
       <Routes>
         <Route index="/" element={<Index />} />
         <Route path="/login" element={<Login />} />
+        <Route path="/contact" element={<Contact />} />
         <Route path="/register" element={<Register />} />
         <Route path="/deposite" element={<Deposite />} />
         <Route path="/withdraw" element={<Withdraw />} />
