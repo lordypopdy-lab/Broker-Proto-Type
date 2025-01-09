@@ -83,7 +83,7 @@ const Contact = () => {
                     <div className="card-body">
                       <form className="forms-sample">
                         <div className="input-group">
-                          <textarea className="Send-Box form-control bg-transparent text-white" cols="30" rows="10" required>start live chat..</textarea>
+                          <textarea className="Send-Box form-control bg-transparent text-white" cols="30" rows="10" placeholder='start live chat..' required></textarea>
                           <div className="input-group-text bg-dark send-chat-btn"><i class="fas fa-paper-plane fa-lg"></i></div>
                         </div>
                       </form>
