@@ -2,6 +2,15 @@ iframe.goog-te-banner-frame{ display: none !important; }
 iframe.skiptranslate{ display: none !important;}
 body {position: static !important; top:0px !important;}
 
+.Send-Box {
+  height: 100px;
+}
+
+.send-chat-btn {
+  border: none;
+  cursor: pointer;
+}
+
 .live-icon{
   width: 10px;
   height: 10px;

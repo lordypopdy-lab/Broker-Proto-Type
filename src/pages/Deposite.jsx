@@ -41,10 +41,10 @@ const Deposite = () => {
                                                     <label for="exampleInputPassword1">Other Gateway</label>
                                                     <input type="number" className="form-control bg-transparent" placeholder="Other Gateway" />
                                                 </div>
-                                               <div className="mt-3 d-flex justify-content-between">
-                                               <button type="submit" className="btn btn-primary mr-2">Deposite</button>
-                                               <button className="btn btn-dark">Cancel</button>
-                                               </div>
+                                                <div className="mt-3 d-flex justify-content-between">
+                                                    <button type="submit" className="btn btn-primary mr-2">Deposite</button>
+                                                    <button className="btn btn-dark">Cancel</button>
+                                                </div>
                                             </form>
                                         </div>
                                     </div>
