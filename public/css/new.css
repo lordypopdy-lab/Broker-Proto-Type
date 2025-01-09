@@ -14,7 +14,7 @@ body {position: static !important; top:0px !important;}
   width: 90%;
   border: 1px solid #081131;
   outline: none;
-  padding: 12px;
+  padding: 14px;
   background: transparent;
   color: #fff;
   border-top-left-radius: 6px;
@@ -22,10 +22,12 @@ body {position: static !important; top:0px !important;}
 }
 
 .send-button {
-  padding: 12px;
+  padding: 14px;
   outline: none;
   border: none;
   width: 60px;
+  display: inline-block;
+  margin-bottom: -40px;
   background: #081131;
   border-top-right-radius: 6px;
   border-bottom-right-radius: 6px;
