@@ -15,7 +15,7 @@ const Contact = () => {
                     </div>
                   </div>
                 </div>
-                <div style={{ marginBottom: "20px", width: "70%", marginLeft: "28px" }} className="col-xl-12 col-sm-12 grid-margin">
+                <div style={{ marginBottom: "28px", }} className="col-xl-12 col-sm-12 grid-margin">
                   <div style={{ border: "none", borderRadius: "9px" }} className="card card-gradient">
                     <div className="card-body card-gradient">
                     <div className="form-group">
@@ -24,7 +24,7 @@ const Contact = () => {
                     </div>
                   </div>
                 </div>
-                <div style={{ marginBottom: "20px", width: "70%" }} className="col-xl-12 col-sm-12 grid-margin">
+                <div style={{ marginBottom: "28px" }} className="col-xl-12 col-sm-12 grid-margin">
                   <div style={{ border: "none", borderRadius: "9px" }} className="card card-gradient">
                     <div className="card-body card-gradient">
                     <div className="form-group">
@@ -33,7 +33,7 @@ const Contact = () => {
                     </div>
                   </div>
                 </div>
-                <div style={{ marginBottom: "20px", width: "70%", marginLeft: "28px" }} className="col-xl-12 col-sm-12 grid-margin">
+                <div style={{ marginBottom: "28px", }} className="col-xl-12 col-sm-12 grid-margin">
                   <div style={{ border: "none", borderRadius: "9px" }} className="card card-gradient">
                     <div className="card-body card-gradient">
                     <div className="form-group">
@@ -42,7 +42,7 @@ const Contact = () => {
                     </div>
                   </div>
                 </div>
-                <div style={{ marginBottom: "20px", width: "70%" }} className="col-xl-12 col-sm-12 grid-margin">
+                <div style={{ marginBottom: "28px" }} className="col-xl-12 col-sm-12 grid-margin">
                   <div style={{ border: "none", borderRadius: "9px" }} className="card card-gradient">
                     <div className="card-body card-gradient">
                     <div className="form-group">
@@ -51,7 +51,7 @@ const Contact = () => {
                     </div>
                   </div>
                 </div>
-                <div style={{ marginBottom: "20px", width: "70%" }} className="col-xl-12 col-sm-12 grid-margin">
+                <div style={{ marginBottom: "28px" }} className="col-xl-12 col-sm-12 grid-margin">
                   <div style={{ border: "none", borderRadius: "9px" }} className="card card-gradient">
                     <div className="card-body card-gradient">
                     <div className="form-group">
@@ -60,7 +60,7 @@ const Contact = () => {
                     </div>
                   </div>
                 </div>
-                <div style={{ marginBottom: "20px", width: "70%", marginLeft: "28px" }} className="col-xl-12 col-sm-12 grid-margin">
+                <div style={{ marginBottom: "28px", }} className="col-xl-12 col-sm-12 grid-margin">
                   <div style={{ border: "none", borderRadius: "9px" }} className="card card-gradient">
                     <div className="card-body card-gradient">
                     <div className="form-group">
@@ -69,7 +69,7 @@ const Contact = () => {
                     </div>
                   </div>
                 </div>
-                <div style={{ marginBottom: "190px", width: "70%" }} className="col-xl-12 col-sm-12 grid-margin">
+                <div style={{ marginBottom: "190px" }} className="col-xl-12 col-sm-12 grid-margin">
                   <div style={{ border: "none", borderRadius: "9px" }} className="card card-gradient">
                     <div className="card-body card-gradient">
                     <div className="form-group">
