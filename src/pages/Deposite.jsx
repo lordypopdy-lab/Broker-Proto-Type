@@ -1,5 +1,5 @@
 import React from 'react'
-import MainNavBar from '../componets/MainNavBar'
+import MainNavBar from '../components/MainNavBar'
 
 const Deposite = () => {
     return (

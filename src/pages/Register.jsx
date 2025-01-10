@@ -1,5 +1,5 @@
 import React from 'react'
-import Widget101 from '../componets/Widget101'
+import Widget101 from '../components/Widget101'
 import { NavLink, Link } from 'react-router-dom'
 
 const Register = () => {

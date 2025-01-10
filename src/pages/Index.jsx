@@ -1,6 +1,6 @@
 import React from 'react';
-import NavBar from '../componets/NavBar';
-import Widget101 from '../componets/Widget101';
+import NavBar from '../components/NavBar';
+import Widget101 from '../components/Widget101';
 
 import "../assets/assets/assets/css/theme.css";
 import "../assets/lib/animate/animate.min.css"

@@ -1,13 +1,11 @@
 import React from 'react'
 import { useState } from 'react'
-import Widget101 from '../components/Widget101'
-import Widget102 from '../components/Widget102'
-import MainNavBar from '../components/MainNavBar'
+import NavBar from '../components/NavBar';
+import Widget101 from '../../components/Widget101';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEye, faEyeSlash } from "@fortawesome/free-solid-svg-icons";
 
-
-const Dashboard = () => {
+const Admin = () => {
 
     const balance = "1234.56";
     const [message, setMessage] = useState("");
@@ -20,20 +18,21 @@ const Dashboard = () => {
     const handleSend = async () => {
         alert("Message Sent!");
     }
+
     return (
-        <>
-            <MainNavBar />
+        <div>
+            <NavBar />
             <div style={{ marginTop: "80px" }} className="container-scroller">
                 <div className="container-fluid page-body-wrapper">
                     <div className="main-panel m-0 w-100">
                         <div className="content-wrapper">
-                            <Widget102 />
                             <div className="row">
                                 <div style={{ borderRadius: "0px" }} className="col-xl-6 p-2 col-sm-6">
                                     <div style={{ border: "none", borderRadius: "9px" }} className="card card-gradient">
                                         <div className="card-body">
                                             <div className="row">
                                                 <div className="col-10">
+                                                <h3 className="text-muted font-weight-normal">Market Cap</h3>
                                                     <div className="d-flex mt-2 align-items-center align-self-start">
                                                         <h5 className="display-4 ls-3 text-center">Bal: {isBalanceVisible ? <><span className="text-600">$</span>{balance}</> : "******"}</h5>
                                                         <span
@@ -50,17 +49,18 @@ const Dashboard = () => {
                                                         </span>
                                                     </div>
                                                 </div>
+                                                <Widget101 />
                                                 <div className="col-2">
                                                     <div className="icon icon-box-warning ">
                                                         <span className="fas fa-arrow-top icon-item"></span>
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div className="text-center btn-group ml-1">
+                                            {/* <div className="text-center btn-group ml-1">
                                                 <button className="btn-special deposite"><a href="/deposite" style={{ fontWeight: "600" }} className="text-white mt-4"><i style={{ borderBottomLeftRadius: "15px", borderTopRightRadius: "15px" }} className="fas fa-wallet d-block mb-1 bg-dark text-warning action-icons p-3"></i>Deposite</a></button>
                                                 <button className="btn-special withdraw"><a href="/withdraw" style={{ fontWeight: "600" }} className="text-white mt-4"><i style={{ borderBottomLeftRadius: "15px", borderTopRightRadius: "15px" }} className="fas fa-paper-plane fa-lg me-2 d-block text-warning bg-dark p-3"></i>Withdraw</a></button>
                                                 <button className="btn-special withdraw"><a href="https://www.coinbase.com/" style={{ fontWeight: "600" }} className="text-white "><i style={{ borderBottomLeftRadius: "15px", borderTopRightRadius: "15px" }} className="fas fa-credit-card text-warning bg-dark p-3"></i>Buy</a></button>
-                                            </div>
+                                            </div> */}
                                         </div>
                                     </div>
                                 </div>
@@ -69,7 +69,7 @@ const Dashboard = () => {
                                         <div className="card-body">
                                             <div className="row">
                                                 <div style={{ marginBottom: "-50px" }} className="col-9">
-                                                    <h6 className="text-muted font-weight-normal">Bonuse</h6>
+                                                    <h6 className="text-muted font-weight-normal">Bonuse Added</h6>
                                                     <div className="d-flex align-items-center align-self-start">
                                                         <h5 style={{ fontSize: "24px" }} className="display-4 ls-3 text-center">{isBalanceVisible ? <><span className="text-600">$</span>{balance}</> : "******"}</h5>
                                                         <p className="text-warning ml-2 mb-0 font-weight-medium">+18%</p>
@@ -166,8 +166,8 @@ const Dashboard = () => {
                     </div>
                 </div>
             </div>
-        </>
+        </div>
     )
 }
 
-export default Dashboard
+export default Admin
