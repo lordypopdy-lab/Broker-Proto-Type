@@ -2,6 +2,7 @@ import React from 'react'
 import { useState } from 'react'
 import NavBar from '../components/NavBar';
 import Widget101 from '../../components/Widget101';
+import Widget102 from '../../components/Widget102';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEye, faEyeSlash } from "@fortawesome/free-solid-svg-icons";
 
@@ -23,6 +24,7 @@ const Admin = () => {
         <div>
             <NavBar />
             <div style={{ marginTop: "80px" }} className="container-scroller">
+                <Widget102 />
                 <div className="container-fluid page-body-wrapper">
                     <div className="main-panel m-0 w-100">
                         <div className="content-wrapper">
@@ -33,7 +35,7 @@ const Admin = () => {
                                             <div className="row">
                                                 <div className="col-10">
                                                 <h3 className="text-muted font-weight-normal">Market Cap</h3>
-                                                    <div className="d-flex mt-2 align-items-center align-self-start">
+                                                    <div style={{paddingBottom: "17px"}} className="d-flex mt-2 align-items-center align-self-start">
                                                         <h5 className="display-4 ls-3 text-center">Bal: {isBalanceVisible ? <><span className="text-600">$</span>{balance}</> : "******"}</h5>
                                                         <span
                                                             onClick={toggleBalanceVisibility}
@@ -67,7 +69,7 @@ const Admin = () => {
                                     <div style={{ border: "none", borderRadius: "9px" }} className="card card-gradient">
                                         <div className="card-body">
                                             <div className="row">
-                                                <div style={{ marginBottom: "-50px" }} className="col-9">
+                                                <div style={{ marginBottom: "-50px" }} className="col-9 p-3">
                                                     <h6 className="text-muted font-weight-normal">Bonuse Added</h6>
                                                     <div className="d-flex align-items-center align-self-start">
                                                         <h5 style={{ fontSize: "24px" }} className="display-4 ls-3 text-center">{isBalanceVisible ? <><span className="text-600">$</span>{balance}</> : "******"}</h5>
@@ -93,17 +95,17 @@ const Admin = () => {
                                         <div className="card-body">
                                             <div className="form-group row">
                                                 <div className="col">
-                                                    <h6 className="card-title">Total Profits</h6>
+                                                    <h6 className="card-title">Total Users</h6>
 
                                                     <div className="d-flex align-items-center align-self-start">
-                                                        <h5 style={{ fontSize: "19px" }} className="display-4 ls-3 text-center">{isBalanceVisible ? <><span className="text-600">$</span>{balance}</> : "******"}</h5>
+                                                        <h5 style={{ fontSize: "19px" }} className="display-4 ls-3 text-center">{isBalanceVisible ? <>{balance}</> : "******"}</h5>
                                                         <p className="text-warning ml-2 mb-0 font-weight-small">+28%</p>
                                                     </div>
                                                 </div>
                                                 <div className="col">
-                                                    <h6 className="card-title">Total Deposite</h6>
+                                                    <h6 className="card-title">Total Investors</h6>
                                                     <div className="d-flex align-items-center align-self-start">
-                                                        <h5 style={{ fontSize: "19px" }} className="display-4 ls-3 text-center">{isBalanceVisible ? <><span className="text-600">$</span>{balance}</> : "******"}</h5>
+                                                        <h5 style={{ fontSize: "19px" }} className="display-4 ls-3 text-center">{isBalanceVisible ? <>{balance}</> : "******"}</h5>
                                                         <p className="text-warning ml-2 mb-0 font-weight-medium">+68%</p>
                                                     </div>
                                                 </div>
