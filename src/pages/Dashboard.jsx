@@ -28,6 +28,7 @@ const Dashboard = () => {
                     <div className="main-panel m-0 w-100">
                         <div className="content-wrapper">
                             <Widget102 />
+                            <Widget101 />
                             <div className="row">
                                 <div style={{ borderRadius: "0px" }} className="col-xl-6 p-2 col-sm-6">
                                     <div style={{ border: "none", borderRadius: "9px" }} className="card card-gradient">
