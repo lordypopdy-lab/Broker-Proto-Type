@@ -49,7 +49,6 @@ const Admin = () => {
                                                         </span>
                                                     </div>
                                                 </div>
-                                                <Widget101 />
                                                 <div className="col-2">
                                                     <div className="icon icon-box-warning ">
                                                         <span className="fas fa-arrow-top icon-item"></span>
@@ -86,6 +85,7 @@ const Admin = () => {
                                         </div>
                                     </div>
                                 </div>
+                                <Widget101 />
                             </div>
                             <div className="row">
                                 <div className="col-md-12 grid-margin mt-3">
