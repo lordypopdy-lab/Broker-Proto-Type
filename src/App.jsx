@@ -7,6 +7,7 @@ import Deposite from "./pages/Deposite";
 import Withdraw from "./pages/Withdraw";
 import Settings from "./pages/Settings";
 import Dashboard from "./pages/Dashboard";
+import AdminLogin from "./admin/pages/AdminLogin";
 
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
@@ -24,6 +25,7 @@ function App() {
         <Route path="/withdraw" element={<Withdraw />} />
         <Route path="/settings" element={<Settings />} />
         <Route path="/dashboard" element={<Dashboard />} />
+        <Route path="/admin/login" element={<AdminLogin />} />
       </Routes>
     </Router>
   )

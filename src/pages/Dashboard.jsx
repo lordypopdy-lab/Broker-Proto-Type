@@ -20,6 +20,8 @@ const Dashboard = () => {
     const handleSend = async () => {
         alert("Message Sent!");
     }
+
+    
     return (
         <>
             <MainNavBar />
